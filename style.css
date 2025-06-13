@@ -1,9 +1,12 @@
-/* style.css */
 body {
   text-align: center;
   font-family: Arial, sans-serif;
   background-color: white;
   transition: background-color 0.5s;
+}
+
+body.colored {
+  background-color: lightblue;
 }
 
 h1 {
