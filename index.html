@@ -1,18 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML + CSS + JS Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
+  <h1 id="heading">Hello, World!</h1>
+  <button onclick="changeColor()">Click Me!</button>
 
-<h2>What Can JavaScript Do?</h2>
-
-<p>JavaScript can change HTML attribute values.</p>
-
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
-
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
-
+  <script src="script.js"></script>
 </body>
 </html>
